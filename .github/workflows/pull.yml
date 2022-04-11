@@ -1,10 +1,10 @@
 name: Pull
 
 on:
-  push:
-    branches: [ master ]
-#  pull_request:
+#  push:
 #    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 env:
   # Path to the solution file relative to the root of the project.
